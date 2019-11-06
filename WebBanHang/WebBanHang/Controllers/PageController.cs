@@ -15,15 +15,25 @@ namespace WebBanHang.Controllers
 
         public ActionResult GioiThieu()
         {
-            ViewBag.Message = "Trang giới thiệu.";
+            ViewBag.Message = "Trang giới thiệu";
 
             return View();
         }
 
         public ActionResult LienHe()
         {
-            ViewBag.Message = "Trang Liên Hệ";
+            ViewBag.Message = "Trang liên hệ";
 
+            return View();
+        }
+
+        public ActionResult DangNhap()
+        {
+            return View();
+        }
+
+        public ActionResult DangKy()
+        {
             return View();
         }
     }
